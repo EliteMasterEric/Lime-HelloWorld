@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
-	
-	<meta title="Hello World" package="org.openfl.lime.samples.helloworld" version="1.0.0" company="OpenFL" />
+
+	<meta title="Hello World" package="org.openfl.lime.samples.helloworld" version="1.0.0"
+		company="OpenFL" />
 	<app main="Main" path="Export" file="HelloWorld" />
-	
+
 	<source path="Source" />
-	
+
 	<haxelib name="lime" />
-  <haxelib name="haxe-concurrent" />
-	
+
 	<assets path="Assets" rename="assets" />
-	
+
+	<haxeflag name="-dce" value="full" />
 </project>
